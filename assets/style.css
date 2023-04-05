@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100%;
+  height: 9vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+}
+.all {
+  padding-top: 3vh;
+}
+.divstart {
+  width: 90%;
+  height: 9vh;
+  margin-left: 15vh;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: inline-block;
+  float: right;
+  padding-right: 19vh;
+}
+ul li {
+  margin-left: 3vh;
+  display: inline;
+  list-style: none;
+}
+.color {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #f0216c, #ff6512);
+}
+h1 {
+  padding-top: 30vh;
+  color: white;
+  font-size: 13vh;
+}
+.h2 {
+  font-size: 8vh;
+  color: white;
+}
+.learn {
+  font-size: 2vh;
+  text-decoration: none;
+  color: white;
+  border: 25px solid #ed0878;
+  border-radius: 130px;
+  background-color: #ed0878;
+}
+.learndiv {
+  padding-top: 12vh;
+}
+section {
+  display: flex;
+}
+.sec1div1 {
+  padding-left: 20vh;
+  width: 90vh;
+  height: 50vh;
+  padding-top: 25vh;
+}
+.h2sec {
+  font-size: 7vh;
+}
+.p {
+  font-size: 2.5vh;
+  padding-top: 2vh;
+}
+img {
+  height: 70vh;
+  width: 70;
+  border-radius: 100%;
+  margin-top: 7vh;
+  margin-left: 18vh;
+}
+.foot {
+  padding-top: 7vh;
+  margin-top: 7vh;
+  background-color: #000000;
+  height: 18vh;
+  color: white;
+  text-align: center;
+}
